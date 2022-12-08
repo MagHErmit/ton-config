@@ -1,0 +1,31 @@
+{
+  "@type": "config.global",
+  "dht": {
+    "@type": "dht.config.global",
+    "k": 3,
+    "a": 3,
+    "static_nodes": {
+      "@type": "dht.nodes",
+      "nodes": []
+    }
+  },
+  "liteservers":[{"id":{"key":"AnGrXkA56yxJGthrln+qPqb0mLOYi5EUeQ8a9iIBH3U=", "@type":"pub.ed25519"}, "port": 4443, "ip": 2130706433}
+],
+ "validator": {
+    "@type": "validator.config.global",
+    "zero_state": {
+      "workchain": -1,
+      "shard": -9223372036854775808,
+      "seqno": 0,
+      "root_hash": "+0UCzBfkH452LnHMSWXD76LRLkUS1H2MbF/62i/Oa74=",
+      "file_hash": "d8j+/W4tbY/LwVZ1dBjQXERXVTx08ZrNmvDGEAZ5l+I="
+    },
+    "init_block": {
+      "workchain": -1,
+      "shard": -9223372036854775808,
+      "seqno": 0,
+      "root_hash": "+0UCzBfkH452LnHMSWXD76LRLkUS1H2MbF/62i/Oa74=",
+      "file_hash": "d8j+/W4tbY/LwVZ1dBjQXERXVTx08ZrNmvDGEAZ5l+I="
+    }
+  }
+}
